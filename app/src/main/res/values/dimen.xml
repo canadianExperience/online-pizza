@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">10pt</dimen>
+    <dimen name="textSizeMainPageHeader">10pt</dimen>
+    <dimen name="textSizeMainPageBody">7pt</dimen>
+</resources>

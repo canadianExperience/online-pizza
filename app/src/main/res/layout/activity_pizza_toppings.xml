@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Add main scrollView-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toppings_scroll_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".PizzaToppingsActivity">
+
+    <LinearLayout
+        android:padding="16dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pizza_toppings_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".PizzaToppingsActivity">
+
+        <LinearLayout
+            android:id="@+id/cheese_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox_cheese_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/cheese" />
+
+            <ImageView
+                android:id="@+id/imageView_cheese_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:contentDescription="@string/cheese_image"
+                app:srcCompat="@drawable/cheese" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/greenPepper_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox_greenPepper_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/green_pepper" />
+
+            <ImageView
+                android:id="@+id/imageView_greenPepper_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:contentDescription="@string/green_pepper_image"
+                app:srcCompat="@drawable/green_pepper" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/smokedHam_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox_smokedHam_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/smoked_ham" />
+
+            <ImageView
+                android:id="@+id/imageView_smokedHam_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:contentDescription="@string/smoked_ham_image"
+                app:srcCompat="@drawable/smoked_ham" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/spinach_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox_spinach_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/spinach" />
+
+            <ImageView
+                android:id="@+id/imageView_spinach_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:contentDescription="@string/spinach_image"
+                app:srcCompat="@drawable/spinach" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/blackOlives_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox_blackOlives_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/black_olives" />
+
+            <ImageView
+                android:id="@+id/imageView_blackOlives_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:contentDescription="@string/black_olives_image"
+                app:srcCompat="@drawable/black_olives" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/spanishOnions_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox_spanishOnions_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/spanish_onions" />
+
+            <ImageView
+                android:id="@+id/imageView_spanishOnions_id"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:contentDescription="@string/spanish_onions_image"
+                app:srcCompat="@drawable/spanish_onions" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:id="@+id/checkOut_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:id="@+id/button_checkOut_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onCheckOut"
+                android:text="@string/check_out" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Online Pizza</string>
+    <string name="pizza_header">Drive to be the best. Better Ingredients. Better Pizza.</string>
+    <string name="pizza_body">The secret to success is much like the secret to making a better pizza - the more you put into it, the more you get out of it. Our pizza family is as hungry for perfection today as we were when we first opened our doors more than 30 years ago. And we\'re driven to be the best at making innovative new products and recipes.</string>
+    <string name="meat_supreme">Meat Supreme</string>
+    <string name="super_hawaiian">Super Hawaiian</string>
+    <string name="veggie">Veggie</string>
+    <string name="mediterranean">Mediterranean</string>
+    <string name="cheddar_supreme">Cheddar Supreme</string>
+    <string name="small_size">Small</string>
+    <string name="medium_size">Medium</string>
+    <string name="large_size">Large</string>
+    <string name="extra_large_size">Extra-large</string>
+    <string name="pizza_logo">Big tasty pizza</string>
+    <string name="cheese">Cheese</string>
+    <string name="green_pepper">Green Pepper</string>
+    <string name="smoked_ham">Smoked Ham</string>
+    <string name="spinach">Spinach</string>
+    <string name="black_olives">Black Olives</string>
+    <string name="spanish_onions">Spanish Onions</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="credit_card_information">Credit card Information</string>
+    <string name="order_pizza">ORDER PIZZA</string>
+    <string name="small_image">small_image</string>
+    <string name="medium_image">medium_image</string>
+    <string name="large_image">large_image</string>
+    <string name="extra_large_image">extra_large_image</string>
+    <string name="spanish_onions_image">spanish_onions_image</string>
+    <string name="black_olives_image">black_olives_image</string>
+    <string name="spinach_image">spinach_image</string>
+    <string name="smoked_ham_image">smoked_ham_image</string>
+    <string name="green_pepper_image">green_pepper_image</string>
+    <string name="cheese_image">cheese_image</string>
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="address_hint">Address</string>
+    <string name="postal_code_hint">Postal code</string>
+    <string name="telephone_number_hint">Phone number</string>
+    <string name="card_number_hint">Card number</string>
+    <string name="expiry_date_hint">Expiry date</string>
+    <string name="select_pizza_type">Select Pizza Type</string>
+    <string name="order_details_header">Thank you\nYour order is on the way\n</string>
+
+
+
+    <string-array name="types_array">
+        <item>Select card type</item>
+        <item>Visa</item>
+        <item>Mastercard</item>
+        <item>American Express</item>
+        <item>Discover</item>
+    </string-array>
+</resources>

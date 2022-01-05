@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/select_pizza_type">
+        <menu>
+            <item
+                android:id="@+id/meat_supreme_id"
+                android:icon="@drawable/meat_supreme_icon"
+                android:orderInCategory="1"
+                app:showAsAction="never"
+                android:title="@string/meat_supreme"/>
+
+            <item
+                android:id="@+id/super_hawaiian_id"
+                android:icon="@drawable/super_hawaiian_icon"
+                android:orderInCategory="2"
+                app:showAsAction="never"
+                android:title="@string/super_hawaiian"/>
+
+            <item
+                android:id="@+id/veggie_id"
+                android:icon="@drawable/veggie_icon"
+                android:orderInCategory="3"
+                app:showAsAction="never"
+                android:title="@string/veggie"/>
+
+            <item
+                android:id="@+id/mediterranean_id"
+                android:icon="@drawable/mediterranean_icon"
+                android:orderInCategory="4"
+                app:showAsAction="never"
+                android:title="@string/mediterranean"/>
+
+            <item
+                android:id="@+id/cheddar_supreme_id"
+                android:icon="@drawable/cheddar_supreme_icon"
+                android:orderInCategory="5"
+                app:showAsAction="never"
+                android:title="@string/cheddar_supreme"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer_info_scroll_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".CustomerInformationActivity">
+
+    <LinearLayout
+        android:id="@+id/Information_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".CustomerInformationActivity">
+
+        <TextView
+            android:id="@+id/textView_customerInfo_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:text="@string/customer_information"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_firstName_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM-' "
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/first_name_hint"
+            android:inputType="textPersonName"
+            android:maxLength="15"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editText_lastName_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM-' "
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/last_name_hint"
+            android:inputType="textPersonName"
+            android:maxLength="15"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editText_address_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="0123456789.,qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM- "
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/address_hint"
+            android:inputType="textPostalAddress"
+            android:maxLength="20"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editText_postalCode_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="0123456789QWERTYUIOPASDFGHJKLZXCVBNM"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/postal_code_hint"
+            android:inputType="text"
+            android:maxLength="6"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editText_telephoneNumber_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="0123456789-"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/telephone_number_hint"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView_creditCardInfo_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:text="@string/credit_card_information"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:layout_marginBottom="16dp"
+            android:entries="@array/types_array"
+            android:id="@+id/types_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText_cardNumber_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/card_number_hint"
+            android:inputType="number"
+            android:maxLength="16"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editText_expiryDate_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:digits="0123456789/"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="@string/expiry_date_hint"
+            android:inputType="date"
+            android:maxLength="5"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/button_orderPizza_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="onOrderPizza"
+            android:text="@string/order_pizza"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
