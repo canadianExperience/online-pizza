@@ -10,4 +10,4 @@ Multi Activities Application
 
 ## Demo
 
-![online-pizza-demo](https://user-images.githubusercontent.com/45378000/148294383-a8780f3d-fc11-4d8b-afe9-02b501dc27b7.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/45378000/148311309-21dcd1c3-8c30-4cd2-82dc-b4ec378169f4.gif)
